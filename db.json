@@ -1,0 +1,107 @@
+{
+  "navs": [
+    {
+      "id": 1,
+      "name": "Home",
+      "href": "#home"
+    },
+    {
+      "id": 2,
+      "name": "About",
+      "href": "#about"
+    },
+    {
+      "id": 3,
+      "name": "Service",
+      "href": "#service"
+    },
+    {
+      "id": 4,
+      "name": "Skills",
+      "href": "#skill"
+    },
+    {
+      "id": 5,
+      "name": "Projects",
+      "href": "#project"
+    },
+    {
+      "id": 6,
+      "name": "Contact",
+      "href": "#contact"
+    },
+    {
+      "id": 7,
+      "name": "Sign In",
+      "href": "/signin"
+    }
+  ],
+  "projects": [
+    {
+      "id": 2,
+      "name": "Hallowen",
+      "image": [
+        "https://res.cloudinary.com/dbktpvcfz/image/upload/v1676883380/demo-upload/dspzyldbzeatq8gcxffi.png"
+      ],
+      "hrefgithub": "https://github.com/Giangchuate/hallowen.git",
+      "hrefpreview": " https://giangchuate.github.io/hallowen/",
+      "time": "10 ngayf",
+      "categoryId": 2
+    },
+    {
+      "name": "Bố mày là hoàng ngu",
+      "image": [
+        "https://res.cloudinary.com/dbktpvcfz/image/upload/v1676881236/demo-upload/lsem2fcceufenyy21bjk.jpg"
+      ],
+      "hrefgithub": "github.com",
+      "hrefpreview": "github.com",
+      "time": "1 ngày",
+      "categoryId": 1,
+      "id": 3
+    }
+  ],
+  "categories":[
+    {
+      "id":1,
+      "name" : "PHP"
+      
+    },
+    {
+      "id":2,
+      "name":"JavaScript"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "adress": "Cao đẳng FPT ",
+      "phone": "0979048136",
+      "email": "nhogiang03tg@gmail.com"
+    }
+  ],
+  "users": [
+    {
+      "email": "nhogiang03tg@gmail.com",
+      "password": "$2a$10$H92lQbt5Ud11AmXMLwhgaeljPg8QdM2FkLOKOWlnrbpxhHsriUC7K",
+      "username": "nhogiang",
+      "id": 1
+    },
+    {
+      "email": "giangnnph21946@gmail.com",
+      "password": "$2a$10$D9TEGeparhtgbdwQOE1F9uU6yuIBzutTMyJs7jnkLTKhEOLkDLHCy",
+      "username": "giangchuate",
+      "id": 2
+    }
+  ],
+  "abouts": [
+    {
+      "id": 1,
+      "name": "Nho Giang",
+      "subtitle": "UI/UX Designer",
+      "image": [
+        "https://res.cloudinary.com/dbktpvcfz/image/upload/v1676882703/demo-upload/o4feh4f5og6hzlyixjqr.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. rerum commodi corrupti, temporibus non quam."
+    }
+  ]
+}

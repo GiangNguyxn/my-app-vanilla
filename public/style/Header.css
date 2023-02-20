@@ -1,0 +1,51 @@
+.header__container{
+        
+        width: 100vw;
+        
+}
+.bg-header{
+        box-shadow: 0 6px 15px rgb(206 212 218 / 30%);
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        background-color: #fff;
+}
+header{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0px 15px;
+       
+}
+.logo img{
+  width: 150px;
+  margin: 0px 16px 0px 0px;
+  padding: 5px 0px;
+}
+.list--menu{
+        display: flex;
+        align-items: center;
+        line-height: 100px;
+        gap: 50px;
+}
+.list--menu .item-menu a{
+        padding: 8px;
+        font-size: 15px;
+        color:  rgba(0, 0, 0, 0.5);
+        font-weight: bold;
+
+}
+.list--menu .item-menu a[href^="/signin"]{
+        color: #ff7a57;
+        border:0.5px solid #ff7a57;
+        border-radius: 10px;
+        transition: all 0.3s;
+}
+.list--menu .item-menu a[href^="/signin"]:hover{
+        background-color: #ff7a57;
+        color: #fff;
+}
+.list--menu .item-menu a:active{
+        color: #ff7a57;
+}

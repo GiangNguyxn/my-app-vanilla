@@ -1,0 +1,38 @@
+.categories{
+        width: 100vw;
+        margin-top: 30px;
+}
+
+.categori__container{
+        max-width: 1140px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        border-bottom: 0.5px solid #ff7a57;
+}
+.btn-cate{
+        border:1px solid;
+        padding: 10px 20px;
+        margin:0px 10px ;
+        border-radius: 10px 10px 0px 0px;
+        cursor: pointer;
+        background-color: #fff;
+        border-color: #ff7a57;
+        color: #ff7a57;
+        font-size: 16px;
+        font-weight: bold;
+        transition: all .3s;
+}
+.btn-cate button{
+        width: 100%;
+     
+}
+.btn-cate:hover{
+        background-color: #ff7a57;
+        color: #fff;
+
+}
+.btn-cate:focus{
+        background-color: #ff7a57;
+        color: #fff;
+}

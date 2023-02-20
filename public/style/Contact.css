@@ -1,0 +1,171 @@
+.contact__container{
+        width: 100vw;
+        height: 700px;
+        position: relative;
+}
+.contact{
+        max-width: 1140px;
+        margin: 0 auto;
+        
+}
+.contact .description .subtitle{
+        font-size: 15px;
+        opacity: .8;
+        margin-bottom: 5px;
+}
+.contact .description .title{
+        font-size: 30px;
+        margin-bottom: 1.5rem;
+        font-weight: bold;
+}
+.contact-form{
+        position: relative;
+        border-radius: 0.3rem;
+        border: 1px solid 1px;
+        box-shadow: 1px 2px 6px rgb(173 181 189 / 50%);
+        padding: 0 30px 0 25px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto 150px;
+        z-index: 99;
+        background: #fff;
+}
+.contact-form .form{
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        border-right: 1px solid #dee2e6;
+        padding: 35px 30px 35px 0;
+}
+.contact-form .contact-infos{
+        align-self: center;
+    margin-left: 30px;
+    min-width: 350px;
+}
+.contact-form .form .subtitle{
+        font-size: 15px;
+        opacity: .8;
+        margin-bottom: 5px;
+}
+.contact-form .form .title{
+        font-size: 30px;
+        margin-bottom: 1.5rem;
+        font-weight: 500;
+}
+.contact-form .form .form-group{
+        margin-bottom: 1rem;
+}
+.contact-form .form .form-group .form-control{
+        
+                display: block;
+                width: 100%;
+                
+                padding: 0.65rem 0.9rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: 0.25rem;
+                -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            
+}
+.contact-form .form .form-group .contact-message{
+        height: auto;
+}
+.form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #ffdfd7;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(255, 122, 87, 0.25);
+      }
+.btn{
+        min-width: 160px;
+        border-radius: 50px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        display: block;
+        width: 100%;
+        background-color: #ff7a57;
+        border-color: #ff7a57;
+        padding: 10.4px 14.4px;
+        transition: all 0.3s;        
+}
+.btn:hover {
+        color: #fff;
+        background-color: #ff5c31;
+        border-color: #ff5224;
+}
+.btn:focus{
+        color: #fff;
+        background-color: #ff5c31;
+        border-color: #ff5224;
+}
+.contact-infos{
+        align-self: center;
+        margin-left: 30px;
+        min-width: 350px;
+}
+.contact-infos .item{
+        display: flex;
+        flex-wrap: wrap;
+}
+.contact-infos .item i {
+        display: block;
+        width: 40px;
+        font-size: 16px;
+        color: primary;
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        border: 1px solid #ff7a57;
+        line-height: 34px;
+        text-align: center;
+        padding: 0 !important;
+        color: #ff7a57;
+        margin-right: 15px;
+    }
+    .contact-infos .item div  {
+        border-bottom: 1px solid #dee2e6;
+        margin-bottom: 25px;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+    }
+    .contact-infos .item div h5 {
+        margin-bottom: 10px;
+        opacity: .9;
+    }
+    .contact-infos .item div p {
+        opacity: .7;
+        font-size: 15px;
+        margin-bottom: 4px;
+        letter-spacing: .6px;
+    }
+#map{
+        
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+}
+#map iframe{
+        height: 100%;
+        width: 100%;
+        transform: translateY(40%);
+      
+}

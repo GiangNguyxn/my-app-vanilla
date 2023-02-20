@@ -1,0 +1,23 @@
+.headeradmin__container{
+        max-width: 100vw;
+        position: relative;
+}
+.headeradmin{
+        background-image: url("../img/profile-layout-header.jpg");
+        background-position-y:50% ;
+        width: 100%;
+        min-height: 300px;
+}
+.bg-headeradmin{
+        position: absolute;
+        background-position: 50%;
+        height: 100%;
+        left: 0;
+        opacity: .7;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-size: cover;
+        background-color: #fb6340;
+
+}

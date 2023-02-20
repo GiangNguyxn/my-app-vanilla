@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  min-height: 100vh;
+}
+.projectadmin__container{
+        background-color: #F5F6F7 !important ;
+        width: 100vw;
+        
+}
+.projectadmin__container .title{
+        transform: translateY(-14rem);
+        margin-left: 20rem;
+        display: flex;
+        align-items: center;
+}
+.projectadmin__container .title h1,.addproject{
+        padding: 10px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+}
+.projectAdmin{
+        transform: translateY(-300px);
+        background-color: #fff;
+        height: fit-content;
+        width:  1600px;
+        margin-left: 18rem;
+        margin-top: 10rem;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow:  14px 14px 28px #a3a3a3;
+        
+}
+.table__projects{
+        padding: 10px;
+}
+.table__projects .list--table th,td{
+        padding: 20px 25px;
+        border-bottom: 0.5px solid ;
+        border-bottom-color: #e9ecef ;
+        
+
+}
+.table__projects .list--table th{
+        color: #8392ab;
+        opacity: .7;
+        font-size: .65rem;
+        font-weight: 700;
+        text-transform: uppercase;
+}
+.table__projects .list--table td{
+        font-size: .875rem;
+        line-height: 1.5;
+        font-weight: 600;
+        color: #344767;
+}
+.table__projects .list--table .btn-remove{
+        background-color: #ff7a57;
+        border: 1px solid #ff7a57;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+}
+.table__projects .list--table .project-edit{
+        text-decoration: none;
+        font-size: 15px;
+        margin-left: 10px;
+        color: #8392ab;
+        opacity: .7;
+}
+.table__projects .list--table .table--img{
+        width: 200px;
+        height: 130px;
+        object-fit: cover;
+}
